@@ -1,0 +1,9 @@
+Xun Li
+lixun2
+
+In ext2_ls.c, it works ok if the path is in the current directory. 
+But if I excute ext2_mkdir and create a new directory and excute ext2_ls in given path ./createdDir,
+then it will go into infinte loop. 
+
+In ext2_rm_bonus.c, I tried to use recursion to remove all the file in the given dir. But at the end,
+the function is not working.
